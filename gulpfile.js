@@ -1,7 +1,8 @@
 const gulp = require('gulp');
 const uglify = require('gulp-uglify-es').default;
 const rename = require('gulp-rename');
-var nano = require('gulp-cssnano');
+const nano = require('gulp-cssnano');
+const htmlmin = require('gulp-htmlmin');
 
 gulp.task('js', () => {
   return gulp
@@ -18,4 +19,16 @@ gulp.task('css', function () {
       .pipe(gulp.dest('.'));
 });
 
-gulp.task('default', ['css', 'js']);
+
+gulp.task('html', () => {
+  gulp
+    .src('indexSource.html')
+    .pipe(htmlmin({
+      collapseWhitespace: true,
+      removeComments: true
+    }))
+    .pipe(rename({basename: "index"}))
+    .pipe(gulp.dest('.'));
+});
+
+gulp.task('default', ['css', 'js', 'html']);
