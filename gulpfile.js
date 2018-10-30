@@ -22,7 +22,7 @@ gulp.task('css', function () {
 
 gulp.task('html', () => {
   gulp
-    .src('indexSource.html')
+    .src('indexSrc.html')
     .pipe(htmlmin({
       collapseWhitespace: true,
       removeComments: true
@@ -31,4 +31,4 @@ gulp.task('html', () => {
     .pipe(gulp.dest('.'));
 });
 
-gulp.task('default', ['css', 'js', 'html']);
+gulp.task('default', ['css', 'js']);
