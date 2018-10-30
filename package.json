@@ -1,0 +1,25 @@
+{
+  "name": "shri2018-2-performance",
+  "version": "1.0.0",
+  "description": "Оптимизируйте страницу, выложите на GitHub Pages. Зайдите на https://shri-performance.ru и отправьте урл своей страницы.",
+  "main": "banner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Megoos/shri2018-2-performance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Megoos/shri2018-2-performance/issues"
+  },
+  "homepage": "https://github.com/Megoos/shri2018-2-performance#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-uglify": "^3.0.1"
+  }
+}
