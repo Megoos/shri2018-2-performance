@@ -2,7 +2,7 @@
   "name": "shri2018-2-performance",
   "version": "1.0.0",
   "description": "Оптимизируйте страницу, выложите на GitHub Pages. Зайдите на https://shri-performance.ru и отправьте урл своей страницы.",
-  "main": "banner.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp"
