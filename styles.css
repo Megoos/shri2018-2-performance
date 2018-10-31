@@ -4,7 +4,7 @@
   font-weight: bold;
   font-display: swap;
   src: url('fonts/pts75f_w.eot');
-  src: local('PT Sans Bold'), url('fonts/PTS75F_W.woff') format('woff');
+  src: local('PT Sans Bold'), url('fonts/PTS75FW.woff2') format('woff');
 }
 
 @font-face {
@@ -12,7 +12,7 @@
   font-weight: bold;
   font-display: swap;
   src: url('fonts/ptn77f_w.eot');
-  src: local('PT Sans Narrow Bold'), url('fonts/PTN77F_W.woff') format('woff');
+  src: local('PT Sans Narrow Bold'), url('fonts/PTN77FW.woff2') format('woff');
 }
 
 .main__greeting {
