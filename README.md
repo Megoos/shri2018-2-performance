@@ -1,5 +1,7 @@
 https://megoos.github.io/shri2018-2-performance/
 
+Максимальный балл: 480.47
+
 1. Убрал лишний код (react, babel)
 2. Минифицировал css и js
 3. Рефакторинг css и js
