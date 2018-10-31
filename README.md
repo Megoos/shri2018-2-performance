@@ -4,6 +4,7 @@ https://megoos.github.io/shri2018-2-performance/
 2. Минифицировал css и js
 3. Рефакторинг css и js
 4. Инлайн svg
+5. Перевел картинки в webp
 
 Оптимизируйте страницу, выложите на GitHub Pages. Зайдите на https://shri-performance.ru и отправьте урл своей страницы.
 
